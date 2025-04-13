@@ -30,6 +30,7 @@ The **Adahessian Optimizer** is an advanced second-order optimization algorithm 
 **Example Usage**:
 ```python
 import tensorflow as tf
+from adahessian import Adahessian
 
 # Define model and loss
 model = tf.keras.Sequential([...])
